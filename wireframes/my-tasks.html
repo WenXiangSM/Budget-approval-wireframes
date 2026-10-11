@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Tasks – e-Submission</title>
+<link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+
+<div class="masthead"><div class="container">A Singapore Government Agency Website</div></div>
+
+<header class="header">
+  <div class="container inner">
+    <div><a class="sysname" href="my-tasks.html">e-Submission</a><span class="agency">National Records Agency</span></div>
+    <div class="userinfo">Ong Hui Min · Director (Corporate Services) <a href="my-tasks.html">My Tasks (2)</a> <a href="index.html">Sign out</a></div>
+  </div>
+</header>
+
+<main class="container">
+
+  <p class="crumbs">My Tasks</p>
+
+  <div class="titlerow" style="margin-top:16px">
+    <h1>My Tasks</h1>
+  </div>
+  <p class="meta"><span>Submissions routed to you as Approver</span><span>2 pending your action</span><span>As at 11 Oct 2026, 9:02 am</span></p>
+
+  <div class="filters">
+    <div class="field">
+      <label for="status">Status</label>
+      <select id="status" style="width:200px">
+        <option>All</option>
+        <option>Pending Approval</option>
+        <option>Returned for Edits</option>
+        <option>Approved</option>
+        <option>Rejected</option>
+        <option>Withdrawn</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="fy">Financial year</label>
+      <select id="fy" style="width:140px">
+        <option>FY2026</option>
+        <option>FY2025</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="q">Search</label>
+      <input type="text" id="q" style="width:320px" placeholder="Submission ID, title or officer">
+    </div>
+    <button class="btn btn-secondary" type="button">Filter</button>
+  </div>
+
+  <section class="section">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-med">Submission ID</th>
+          <th>Title</th>
+          <th>Requesting officer</th>
+          <th class="col-med num">Amount (S$)</th>
+          <th class="col-med">Date received</th>
+          <th class="col-med">Status</th>
+          <th class="col-action">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="01-overview.html">ES-2026-000347</a></td>
+          <td>Upgrade of Records Management System (RMS) to Version 5</td>
+          <td>Tan Wei Ling, Information Systems Department</td>
+          <td class="num">1,284,500.00</td>
+          <td>09 Oct 2026</td>
+          <td><span class="badge badge-pending-approval">Pending Approval</span></td>
+          <td class="col-action"><a href="01-overview.html">Review</a></td>
+        </tr>
+        <tr>
+          <td><a href="01-overview.html">ES-2026-000351</a></td>
+          <td>Replacement of multifunction printers, Archives &amp; Access Department</td>
+          <td>Goh Siew Mei, Archives &amp; Access Department</td>
+          <td class="num">86,400.00</td>
+          <td>10 Oct 2026</td>
+          <td><span class="badge badge-pending-approval">Pending Approval</span></td>
+          <td class="col-action"><a href="01-overview.html">Review</a></td>
+        </tr>
+        <tr>
+          <td><a href="01-overview.html">ES-2026-000339</a></td>
+          <td>Renewal of offsite records storage contract, FY2026 to FY2028</td>
+          <td>Muhammad Faiz Bin Osman, Archives &amp; Access Department</td>
+          <td class="num">412,000.00</td>
+          <td>01 Oct 2026</td>
+          <td><span class="badge badge-returned">Returned for Edits</span></td>
+          <td class="col-action"><a href="01-overview.html">View</a></td>
+        </tr>
+        <tr>
+          <td><a href="01-overview.html">ES-2026-000322</a></td>
+          <td>Digitisation of land records 1965 to 1980, Phase 2</td>
+          <td>Chen Li Hua, Digitisation Programme Office</td>
+          <td class="num">958,750.00</td>
+          <td>22 Sep 2026</td>
+          <td><span class="badge badge-approved">Approved</span></td>
+          <td class="col-action"><a href="01-overview.html">View</a></td>
+        </tr>
+        <tr>
+          <td><a href="01-overview.html">ES-2026-000318</a></td>
+          <td>Cybersecurity awareness training for all staff, FY2026</td>
+          <td>Tan Wei Ling, Information Systems Department</td>
+          <td class="num">32,500.00</td>
+          <td>18 Sep 2026</td>
+          <td><span class="badge badge-approved">Approved</span></td>
+          <td class="col-action"><a href="01-overview.html">View</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="hint">Showing 5 of 5 submissions. Approved, rejected and withdrawn submissions are retained for 2 financial years. In this wireframe every row opens ES-2026-000347.</p>
+  </section>
+
+</main>
+</body>
+</html>

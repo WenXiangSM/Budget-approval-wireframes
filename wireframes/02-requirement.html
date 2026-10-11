@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Requirement – e-Submission</title>
+<link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+
+<div class="masthead"><div class="container">A Singapore Government Agency Website</div></div>
+
+<header class="header">
+  <div class="container inner">
+    <div><a class="sysname" href="my-tasks.html">e-Submission</a><span class="agency">National Records Agency</span></div>
+    <div class="userinfo">Ong Hui Min · Director (Corporate Services) <a href="my-tasks.html">My Tasks (2)</a> <a href="index.html">Sign out</a></div>
+  </div>
+</header>
+
+<main class="container">
+
+  <p class="crumbs"><a href="my-tasks.html">My Tasks</a> › ES-2026-000347</p>
+
+  <ol class="steps">
+    <li class="done"><a href="01-overview.html"><span class="num">1</span><span>Overview</span><span class="flag-mark" hidden>Flagged</span></a></li>
+    <li class="current"><span class="num">2</span><span>Requirement</span><span class="flag-mark" hidden>Flagged</span></li>
+    <li><a href="03-charging-cashflow.html"><span class="num">3</span><span>Charging, Cashflow &amp; Funds</span><span class="flag-mark">Flagged</span></a></li>
+    <li><a href="04-workflow-assignment.html"><span class="num">4</span><span>Workflow Assignment</span><span class="flag-mark" hidden>Flagged</span></a></li>
+    <li><a href="05-review-decision.html"><span class="num">5</span><span>Review &amp; Decision</span></a></li>
+  </ol>
+
+  <div class="titlerow">
+    <h1>Budget Approval Form – Requirement</h1>
+    <span class="badge badge-pending-approval">Pending Approval</span>
+    <button type="button" class="btn btn-secondary btn-sm flag-btn" data-flag-btn aria-expanded="false"><svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3 15V1.5"/><path d="M3 2h9.5l-2 3.5 2 3.5H3"/></svg><span>Flag for edits</span></button>
+  </div>
+  <p class="meta"><span>Submission ID: ES-2026-000347</span><span>Upgrade of Records Management System (RMS) to Version 5</span><span>FY2026</span><span>Submitted by Tan Wei Ling on 07 Oct 2026</span></p>
+
+  <div class="flag-wrap" data-flag data-section="2" data-state="off">
+    <div class="flag-panel">
+      <span class="flag-mark">Flagged</span>
+      <span class="flag-text"></span>
+      <span class="flag-links"><button type="button" class="linkbtn" data-flag-edit>Edit</button> · <button type="button" class="linkbtn linkbtn-danger" data-flag-remove>Remove flag</button></span>
+    </div>
+    <div class="flag-editor">
+      <label for="flag-2-remark">Remark on Requirement <span class="req">*</span></label>
+      <p class="hint">State what the requesting officer should change in this section. Sent with the submission if it is returned for edits.</p>
+      <textarea id="flag-2-remark" rows="2"></textarea>
+      <div class="toolbar"><button type="button" class="btn btn-primary btn-sm" data-flag-save>Save flag</button><button type="button" class="btn btn-secondary btn-sm" data-flag-cancel>Cancel</button></div>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>Request details</h2>
+    <div class="field field-wide">
+      <span class="label">Description of request</span>
+      <span class="readonly">Upgrade the agency's Records Management System (RMS) from Version 3.2 to Version 5, including replacement of the two application servers and the storage array that reached end-of-support on 30 Jun 2026. Covers software licences for 450 named users, implementation and data migration services, user training and first-year maintenance.</span>
+    </div>
+    <div class="field field-wide">
+      <span class="label">Justification</span>
+      <span class="readonly">RMS Version 3.2 is no longer supported by the vendor and does not meet the IM8 security requirements flagged in Internal Audit Report IA/2025/14 (Finding 3). The current storage array is at 91% capacity and cannot accommodate the FY2026 digitisation intake of approximately 18 TB. Deferral would require an interim support contract of about S$160,000 and carries an unmitigated data-loss risk.</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Line items</h2>
+    <p class="hint">Amounts in SGD, inclusive of GST.</p>
+    <table class="table">
+      <thead><tr><th class="col-narrow">S/N</th><th>Item</th><th class="col-narrow num">Quantity</th><th class="col-med num">Unit cost (S$)</th><th class="col-med num">Subtotal (S$)</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>RMS Version 5 application licence (named user)</td><td class="num">450</td><td class="num">1,200.00</td><td class="num">540,000.00</td></tr>
+        <tr><td>2</td><td>Rack server, 2-node application cluster</td><td class="num">2</td><td class="num">48,500.00</td><td class="num">97,000.00</td></tr>
+        <tr><td>3</td><td>Storage array, 120 TB usable</td><td class="num">1</td><td class="num">185,000.00</td><td class="num">185,000.00</td></tr>
+        <tr><td>4</td><td>Implementation and data migration services</td><td class="num">1</td><td class="num">312,500.00</td><td class="num">312,500.00</td></tr>
+        <tr><td>5</td><td>User training (per session, 30 pax)</td><td class="num">15</td><td class="num">3,000.00</td><td class="num">45,000.00</td></tr>
+        <tr><td>6</td><td>Annual maintenance and support, Year 1</td><td class="num">1</td><td class="num">105,000.00</td><td class="num">105,000.00</td></tr>
+      </tbody>
+      <tfoot><tr><td colspan="4">Total amount requested</td><td class="num">1,284,500.00</td></tr></tfoot>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2>Supporting documents</h2>
+    <p class="hint">Select a file name to open the document in a new tab.</p>
+    <table class="table table-compact">
+      <thead><tr><th>File name</th><th class="col-med">Document type</th><th class="col-narrow">Size</th><th class="col-med">Uploaded on</th></tr></thead>
+      <tbody>
+        <tr><td><a href="docs/RMS_v5_Vendor_Quotation_Q-26-0418.pdf" target="_blank">RMS_v5_Vendor_Quotation_Q-26-0418.pdf</a></td><td>Quotation</td><td>4 KB</td><td>03 Oct 2026</td></tr>
+        <tr><td><a href="docs/IA-2025-14_Internal_Audit_Report_Extract.pdf" target="_blank">IA-2025-14_Internal_Audit_Report_Extract.pdf</a></td><td>Audit finding</td><td>3 KB</td><td>03 Oct 2026</td></tr>
+        <tr><td><a href="docs/RMS_Upgrade_Cost_Breakdown_FY2026.pdf" target="_blank">RMS_Upgrade_Cost_Breakdown_FY2026.pdf</a></td><td>Cost breakdown</td><td>4 KB</td><td>06 Oct 2026</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="actions">
+    <div><a class="btn btn-secondary" href="01-overview.html">Back</a></div>
+    <div class="right">
+      <a class="btn btn-primary" href="03-charging-cashflow.html">Next</a>
+    </div>
+  </div>
+
+</main>
+<script src="flag.js?v=4"></script>
+</body>
+</html>

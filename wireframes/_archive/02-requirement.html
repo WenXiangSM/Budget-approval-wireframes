@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Requirement – e-Submission</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<div class="masthead"><div class="container">A Singapore Government Agency Website</div></div>
+
+<header class="header">
+  <div class="container inner">
+    <div><a class="sysname" href="index.html">e-Submission</a><span class="agency">National Records Agency</span></div>
+    <div class="userinfo">Tan Wei Ling · Information Systems Department <a href="#">My Tasks</a> <a href="#">Sign out</a></div>
+  </div>
+</header>
+
+<main class="container">
+
+  <p class="crumbs"><a href="#">My Submissions</a> › ES-2026-000347</p>
+
+  <ol class="steps">
+    <li class="done"><span class="num">1</span><a href="01-overview.html">Overview</a></li>
+    <li class="current"><span class="num">2</span><span>Requirement</span></li>
+    <li><span class="num">3</span><a href="03-charging-cashflow.html">Charging, Cashflow &amp; Funds</a></li>
+    <li><span class="num">4</span><a href="04-workflow-assignment.html">Workflow Assignment</a></li>
+    <li><span class="num">5</span><a href="05-review-submit.html">Review &amp; Submit</a></li>
+  </ol>
+
+  <div class="titlerow">
+    <h1>Budget Approval Form – Requirement</h1>
+    <span class="badge badge-draft">Draft</span>
+  </div>
+  <p class="meta"><span>Submission ID: ES-2026-000347</span><span>Upgrade of Records Management System (RMS) to Version 5</span><span>FY2026</span></p>
+
+  <section class="section">
+    <h2>Request details</h2>
+
+    <div class="field field-wide">
+      <label for="desc">Description of request <span class="req">*</span></label>
+      <p class="hint">State what is being procured or funded, and the expected outcome.</p>
+      <textarea id="desc" rows="3">Upgrade the agency's Records Management System (RMS) from Version 3.2 to Version 5, including replacement of the two application servers and the storage array that reached end-of-support on 30 Jun 2026. Covers software licences for 450 named users, implementation and data migration services, user training and first-year maintenance.</textarea>
+    </div>
+
+    <div class="field field-wide">
+      <label for="just">Justification <span class="req">*</span></label>
+      <p class="hint">Explain why the request is necessary and the consequence of not approving it. Reference any audit findings or directives.</p>
+      <textarea id="just" rows="3">RMS Version 3.2 is no longer supported by the vendor and does not meet the IM8 security requirements flagged in Internal Audit Report IA/2025/14 (Finding 3). The current storage array is at 91% capacity and cannot accommodate the FY2026 digitisation intake of approximately 18 TB. Deferral would require an interim support contract of about S$160,000 and carries an unmitigated data-loss risk.</textarea>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Line items</h2>
+    <p class="hint">Enter each cost component. Subtotal and total are calculated automatically. Amounts in SGD, inclusive of GST.</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-narrow">S/N</th>
+          <th>Item</th>
+          <th class="col-narrow num">Quantity</th>
+          <th class="col-med num">Unit cost (S$)</th>
+          <th class="col-med num">Subtotal (S$)</th>
+          <th class="col-action">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><input type="text" value="RMS Version 5 application licence (named user)"></td><td><input type="text" class="num" value="450"></td><td><input type="text" class="num" value="1,200.00"></td><td class="num">540,000.00</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>2</td><td><input type="text" value="Rack server, 2-node application cluster"></td><td><input type="text" class="num" value="2"></td><td><input type="text" class="num" value="48,500.00"></td><td class="num">97,000.00</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>3</td><td><input type="text" value="Storage array, 120 TB usable"></td><td><input type="text" class="num" value="1"></td><td><input type="text" class="num" value="185,000.00"></td><td class="num">185,000.00</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>4</td><td><input type="text" value="Implementation and data migration services"></td><td><input type="text" class="num" value="1"></td><td><input type="text" class="num" value="312,500.00"></td><td class="num">312,500.00</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>5</td><td><input type="text" value="User training (per session, 30 pax)"></td><td><input type="text" class="num" value="15"></td><td><input type="text" class="num" value="3,000.00"></td><td class="num">45,000.00</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>6</td><td><input type="text" value="Annual maintenance and support, Year 1"></td><td><input type="text" class="num" value="1"></td><td><input type="text" class="num" value="105,000.00"></td><td class="num">105,000.00</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td colspan="4">Total amount requested</td><td class="num">1,284,500.00</td><td></td></tr>
+      </tfoot>
+    </table>
+    <div class="toolbar"><a class="btn btn-secondary btn-sm" href="#">Add line item</a></div>
+  </section>
+
+  <section class="section">
+    <h2>Supporting documents</h2>
+    <div class="upload">
+      <div>
+        <div>Drag files here or choose files to upload.</div>
+        <p class="hint">PDF, DOCX or XLSX. Maximum 20 MB per file, up to 10 files.</p>
+      </div>
+      <a class="btn btn-secondary btn-sm" href="#">Choose files</a>
+    </div>
+    <table class="table table-compact">
+      <thead>
+        <tr><th>File name</th><th class="col-med">Document type</th><th class="col-narrow">Size</th><th class="col-med">Uploaded on</th><th class="col-action">Action</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>RMS_v5_Vendor_Quotation_Q-26-0418.pdf</td><td>Quotation</td><td>1.2 MB</td><td>03 Oct 2026</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>IA-2025-14_Internal_Audit_Report_Extract.pdf</td><td>Audit finding</td><td>640 KB</td><td>03 Oct 2026</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+        <tr><td>RMS_Upgrade_Cost_Breakdown_FY2026.xlsx</td><td>Cost breakdown</td><td>88 KB</td><td>06 Oct 2026</td><td class="col-action"><button class="linkbtn linkbtn-danger">Remove</button></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="actions">
+    <div><a class="btn btn-secondary" href="01-overview.html">Back</a></div>
+    <div class="right">
+      <span class="saved">Last saved 06 Oct 2026, 4:42 pm</span>
+      <a class="btn btn-secondary" href="#">Save Draft</a>
+      <a class="btn btn-primary" href="03-charging-cashflow.html">Next</a>
+    </div>
+  </div>
+
+</main>
+</body>
+</html>

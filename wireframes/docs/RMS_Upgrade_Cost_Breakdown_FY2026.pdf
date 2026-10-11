@@ -1,0 +1,66 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R /F4 7 0 R >> >> /Contents 8 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 2359 >>
+stream
+BT /F2 16 Tf 56 790 Td (RMS Upgrade - Cost Breakdown and Cashflow, FY2026) Tj ET
+BT /F1 10 Tf 56 766.0 Td (Submission ES-2026-000347   Prepared by Tan Wei Ling, Information Systems Department   06 Oct 2026) Tj ET
+BT /F2 11 Tf 56 743.0 Td (A. Cost components \(SGD, inclusive of GST\)) Tj ET
+BT /F3 9 Tf 56 726.5 Td (1  RMS Version 5 application licence, 450 named users x 1,200.00         540,000.00) Tj ET
+BT /F3 9 Tf 56 713.0 Td (2  Rack server, 2-node application cluster, 2 x 48,500.00                 97,000.00) Tj ET
+BT /F3 9 Tf 56 699.5 Td (3  Storage array, 120 TB usable, 1 x 185,000.00                          185,000.00) Tj ET
+BT /F3 9 Tf 56 686.0 Td (4  Implementation and data migration services                            312,500.00) Tj ET
+BT /F3 9 Tf 56 672.5 Td (5  User training, 15 sessions x 3,000.00                                  45,000.00) Tj ET
+BT /F3 9 Tf 56 659.0 Td (6  Annual maintenance and support, Year 1                                105,000.00) Tj ET
+BT /F4 9 Tf 56 645.5 Td (   Total amount requested                                             1,284,500.00) Tj ET
+BT /F2 11 Tf 56 624.0 Td (B. Cashflow by quarter) Tj ET
+BT /F3 9 Tf 56 607.5 Td (FY2026 Q3 \(Oct-Dec 2026\)  Licences and servers \(items 1, 2\)              637,000.00) Tj ET
+BT /F3 9 Tf 56 594.0 Td (FY2026 Q4 \(Jan-Mar 2027\)  Storage and implementation \(items 3, 4\)        497,500.00) Tj ET
+BT /F3 9 Tf 56 580.5 Td (FY2027 Q1 \(Apr-Jun 2027\)  Training and Year 1 maintenance \(items 5, 6\)   150,000.00) Tj ET
+BT /F4 9 Tf 56 567.0 Td (   Total                                                               1,284,500.00) Tj ET
+BT /F2 11 Tf 56 545.5 Td (C. Charging) Tj ET
+BT /F1 10 Tf 56 529.0 Td (Cost centre: CC-4120 Information Systems Department) Tj ET
+BT /F1 10 Tf 56 514.0 Td (Fund code: F-DE-IT-26 Development Expenditure: IT Systems, FY2026) Tj ET
+BT /F1 10 Tf 56 499.0 Td (Budget available: S$2,450,000.00   Remaining after approval: S$1,165,500.00) Tj ET
+BT /F2 11 Tf 56 476.0 Td (D. Basis) Tj ET
+BT /F1 10 Tf 56 459.5 Td (Figures taken from Meridian Systems quotation Q-26-0418 dated 30 Sep 2026, valid until 30 Nov 2026.) Tj ET
+BT /F1 10 Tf 56 444.5 Td (No payments fall in Q1 or Q2 FY2026 as the request was raised on 02 Oct 2026.) Tj ET
+BT /F1 10 Tf 56 421.5 Td (This is a placeholder document generated for a wireframe case study.) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000271 00000 n 
+0000000368 00000 n 
+0000000470 00000 n 
+0000000565 00000 n 
+0000000665 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+3076
+%%EOF

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>e-Submission wireframes – index</title>
+<link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+
+<div class="masthead"><div class="container">A Singapore Government Agency Website</div></div>
+
+<header class="header">
+  <div class="container inner">
+    <div><span class="sysname">e-Submission</span><span class="agency">Budget Approval Form – approver wireframes</span></div>
+    <div class="userinfo">Business Analyst Case Study – Use Case 1a</div>
+  </div>
+</header>
+
+<main class="container">
+
+  <div class="titlerow" style="margin-top:20px"><h1>Wireframe index</h1></div>
+  <p class="meta"><span>Logged in as Ong Hui Min, Director (Corporate Services), Approver</span><span>Sample submission ES-2026-000347</span><span>FY2026</span></p>
+
+  <section class="section">
+    <h2>Pages</h2>
+    <ol class="index-list">
+      <li><a href="my-tasks.html">My Tasks</a> – submissions assigned to the approver. Start here.</li>
+      <li><a href="01-overview.html">1. Overview</a></li>
+      <li><a href="02-requirement.html">2. Requirement</a></li>
+      <li><a href="03-charging-cashflow.html">3. Charging Details, Cashflow &amp; Funds Availability</a></li>
+      <li><a href="04-workflow-assignment.html">4. Workflow Assignment</a></li>
+      <li><a href="05-review-decision.html">5. Review &amp; Decision</a> – Approve or Return for Edits</li>
+      <li><a href="approved.html">Confirmation: Approved</a></li>
+      <li><a href="returned.html">Confirmation: Returned for Edits</a></li>
+      <li><a href="rejected.html">Confirmation: Rejected</a></li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>Supporting documents</h2>
+    <ul class="index-list">
+      <li><a href="docs/RMS_v5_Vendor_Quotation_Q-26-0418.pdf" target="_blank">RMS_v5_Vendor_Quotation_Q-26-0418.pdf</a> – Quotation</li>
+      <li><a href="docs/IA-2025-14_Internal_Audit_Report_Extract.pdf" target="_blank">IA-2025-14_Internal_Audit_Report_Extract.pdf</a> – Audit finding</li>
+      <li><a href="docs/RMS_Upgrade_Cost_Breakdown_FY2026.pdf" target="_blank">RMS_Upgrade_Cost_Breakdown_FY2026.pdf</a> – Cost breakdown</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Proposed statuses</h2>
+    <table class="table" style="max-width:900px">
+      <thead><tr><th class="col-med">Status</th><th>Meaning</th><th>Set when</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-draft">Draft</span></td><td>Being prepared by the requesting officer. Not visible to others.</td><td>Submission created or saved as draft</td></tr>
+        <tr><td><span class="badge badge-pending-support">Pending Support</span></td><td>Awaiting action by one or more supporters, in routing order.</td><td>Requesting officer submits or resubmits</td></tr>
+        <tr><td><span class="badge badge-pending-approval">Pending Approval</span></td><td>All supporters have supported. Awaiting the approver.</td><td>Last supporter supports</td></tr>
+        <tr><td><span class="badge badge-returned">Returned for Edits</span></td><td>Sent back to the requesting officer with comments. Form is unlocked.</td><td>Any supporter or approver returns the submission</td></tr>
+        <tr><td><span class="badge badge-approved">Approved</span></td><td>Final. Funds are committed and the form is locked.</td><td>Approver approves</td></tr>
+        <tr><td><span class="badge badge-rejected">Rejected</span></td><td>Final. Closed by the approver with a reason. Cannot be resubmitted; a new submission must be raised.</td><td>Approver rejects</td></tr>
+        <tr><td><span class="badge badge-withdrawn">Withdrawn</span></td><td>Cancelled by the requesting officer before approval. Retained for records.</td><td>Requesting officer withdraws</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+</body>
+</html>

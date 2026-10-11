@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R /F4 7 0 R >> >> /Contents 8 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 2200 >>
+stream
+BT /F2 16 Tf 56 790 Td (Meridian Systems Pte Ltd) Tj ET
+BT /F1 10 Tf 56 766.0 Td (12 Tampines Industrial Crescent, #05-01, Singapore 528606   GST Reg. No. M2-0417892-3) Tj ET
+BT /F2 11 Tf 56 743.0 Td (QUOTATION  Q-26-0418) Tj ET
+BT /F1 10 Tf 56 726.5 Td (Date: 30 Sep 2026        Valid until: 30 Nov 2026) Tj ET
+BT /F1 10 Tf 56 711.5 Td (To: Tan Wei Ling, Senior Executive \(Information Systems\), National Records Agency) Tj ET
+BT /F1 10 Tf 56 696.5 Td (Subject: Upgrade of Records Management System \(RMS\) to Version 5) Tj ET
+BT /F4 9 Tf 56 673.5 Td (S/N  Item                                              Qty    Unit \(S$\)    Amount \(S$\)) Tj ET
+BT /F3 9 Tf 56 660.0 Td (1    RMS Version 5 application licence \(named user\)    450     1,200.00     540,000.00) Tj ET
+BT /F3 9 Tf 56 646.5 Td (2    Rack server, 2-node application cluster             2    48,500.00      97,000.00) Tj ET
+BT /F3 9 Tf 56 633.0 Td (3    Storage array, 120 TB usable                        1   185,000.00     185,000.00) Tj ET
+BT /F3 9 Tf 56 619.5 Td (4    Implementation and data migration services          1   312,500.00     312,500.00) Tj ET
+BT /F3 9 Tf 56 606.0 Td (5    User training, 30 pax per session                  15     3,000.00      45,000.00) Tj ET
+BT /F3 9 Tf 56 592.5 Td (6    Annual maintenance and support, Year 1              1   105,000.00     105,000.00) Tj ET
+BT /F4 9 Tf 56 579.0 Td (     Total, inclusive of 9% GST                                            1,284,500.00) Tj ET
+BT /F2 11 Tf 56 557.5 Td (Terms) Tj ET
+BT /F1 10 Tf 56 541.0 Td (1. Payment: 50% on delivery of hardware and licences, 40% on completion of data migration,) Tj ET
+BT /F1 10 Tf 56 526.0 Td (   10% on user acceptance. Year 1 maintenance invoiced on go-live.) Tj ET
+BT /F1 10 Tf 56 511.0 Td (2. Delivery: hardware within 8 weeks of purchase order. Migration completed within 20 weeks.) Tj ET
+BT /F1 10 Tf 56 496.0 Td (3. Prices are firm for the validity period and subject to the Government Supplier Terms.) Tj ET
+BT /F1 10 Tf 56 473.0 Td (Prepared by: Daniel Koh, Account Manager, Meridian Systems Pte Ltd) Tj ET
+BT /F1 10 Tf 56 458.0 Td (This is a placeholder document generated for a wireframe case study.) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000271 00000 n 
+0000000368 00000 n 
+0000000470 00000 n 
+0000000565 00000 n 
+0000000665 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+2917
+%%EOF
