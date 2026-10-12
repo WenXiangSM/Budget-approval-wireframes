@@ -1,0 +1,65 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R /F4 7 0 R >> >> /Contents 8 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 2114 >>
+stream
+BT /F2 16 Tf 56 790 Td (National Records Agency - Internal Audit) Tj ET
+BT /F1 10 Tf 56 766.0 Td (Annual Internal Audit Report, FY2025: Review of IT Systems and Information Security) Tj ET
+BT /F1 10 Tf 56 751.0 Td (Issued 18 Mar 2026. Extract: Finding 3 only. Classification: Restricted) Tj ET
+BT /F2 11 Tf 56 728.0 Td (Finding 3 - Records Management System \(RMS\) is unsupported and not secure) Tj ET
+BT /F1 10 Tf 56 711.5 Td (Rating: High) Tj ET
+BT /F2 11 Tf 56 688.5 Td (Observation) Tj ET
+BT /F1 10 Tf 56 672.0 Td (The RMS is running Version 3.2, for which vendor support ended on 30 Jun 2026. Unsupported) Tj ET
+BT /F1 10 Tf 56 657.0 Td (software no longer receives security patches and does not meet the Government's current) Tj ET
+BT /F1 10 Tf 56 642.0 Td (security requirements for supported software and vulnerability management.) Tj ET
+BT /F1 10 Tf 56 627.0 Td (The RMS storage array was at 91% of capacity at the time of audit. The FY2026 digitisation) Tj ET
+BT /F1 10 Tf 56 612.0 Td (intake of approximately 18 TB cannot be accommodated without expansion.) Tj ET
+BT /F2 11 Tf 56 589.0 Td (Risk) Tj ET
+BT /F1 10 Tf 56 572.5 Td (Loss or compromise of agency records; inability to ingest new digitised records; adverse) Tj ET
+BT /F1 10 Tf 56 557.5 Td (findings in the next Government security compliance review.) Tj ET
+BT /F2 11 Tf 56 534.5 Td (Recommendation) Tj ET
+BT /F1 10 Tf 56 518.0 Td (Management should upgrade the RMS to a vendor-supported version and replace the storage) Tj ET
+BT /F1 10 Tf 56 503.0 Td (array before the FY2026 digitisation programme commences. Interim support should be) Tj ET
+BT /F1 10 Tf 56 488.0 Td (arranged if the upgrade cannot be completed within FY2026.) Tj ET
+BT /F2 11 Tf 56 465.0 Td (Management response) Tj ET
+BT /F1 10 Tf 56 448.5 Td (Agreed. Information Systems Department will submit a budget request for the RMS Version 5) Tj ET
+BT /F1 10 Tf 56 433.5 Td (upgrade in FY2026. Target completion: Q1 FY2027. Owner: Deputy Director \(Information Systems\).) Tj ET
+BT /F1 10 Tf 56 410.5 Td (This is a placeholder document generated for a wireframe case study.) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000271 00000 n 
+0000000368 00000 n 
+0000000470 00000 n 
+0000000565 00000 n 
+0000000665 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+2831
+%%EOF

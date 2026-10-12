@@ -116,7 +116,6 @@ a { color: var(--accent); }
 .badge-returned         { background: #fdeaea; border-color: #d9534f; color: #7a1f1b; }
 .badge-approved         { background: #e6f4ea; border-color: #3c9a5a; color: #1b5e30; }
 .badge-withdrawn        { background: #ececec; border-color: #8a919c; color: #4a4f57; }
-.badge-rejected         { background: #ffffff; border-color: #b42318; color: #b42318; }
 
 /* Notices */
 .notice {
@@ -139,6 +138,8 @@ a { color: var(--accent); }
 }
 .section h3 { font-size: 14px; font-weight: 600; margin: 16px 0 8px; }
 .section p { margin: 0 0 10px; font-size: 14px; }
+
+.group-title { font-size: 18px; font-weight: 600; margin: 8px 0 20px; padding-top: 20px; border-top: 2px solid var(--border-strong); }
 
 /* Form fields: single column, stacked */
 .field { margin-bottom: 16px; max-width: 640px; }
@@ -202,6 +203,9 @@ input[readonly], textarea[readonly], select[disabled], .readonly {
 .table .col-action { width: 90px; text-align: center; }
 .table-compact th, .table-compact td { padding: 5px 8px; font-size: 13px; }
 .table-plain td { border: 0; border-bottom: 1px solid var(--border); }
+.funds-table { max-width: 640px; }
+.funds-table th { width: 60%; white-space: nowrap; font-weight: 500; }
+.funds-table tr:last-child th { font-weight: 600; }
 
 /* Key-value summary */
 .summary {
@@ -333,12 +337,3 @@ input[readonly], textarea[readonly], select[disabled], .readonly {
 .flag-mark[hidden] { display: none; }
 
 .btn-note { font-size: 12.5px; line-height: 1.35; color: var(--muted); margin-right: 12px; max-width: 440px; text-align: right; }
-.btn-danger { border-color: var(--danger); color: var(--danger); }
-.btn-danger:hover { background: #fdf3f3; }
-.reject-panel {
-  border: 1px solid var(--danger);
-  background: #fdf3f3; padding: 14px 16px; margin: 0 0 20px; max-width: 760px;
-}
-.reject-panel[hidden] { display: none; }
-.reject-panel h2 { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
-.reject-panel .field { margin-bottom: 10px; max-width: none; }
